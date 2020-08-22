@@ -3,7 +3,10 @@ from typing import List
 
 
 class Direction(Enum):
-    NORTH = 1; EAST = 2; SOUTH = 3; WEST = 4
+    NORTH = 1
+    EAST = 2
+    SOUTH = 3
+    WEST = 4
 
     def next(self):
         members = list(self.__class__)
